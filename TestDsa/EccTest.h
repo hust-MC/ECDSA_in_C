@@ -13,7 +13,7 @@
 #endif
 
 #if (ECC_CURVE != secp128r1 && ECC_CURVE != secp192r1 && ECC_CURVE != secp256r1 && ECC_CURVE != secp384r1)
-    #error "Must define ECC_CURVE to one of the available curves"
+#error "Must define ECC_CURVE to one of the available curves"
 #endif
 
 #define ECC_BYTES ECC_CURVE

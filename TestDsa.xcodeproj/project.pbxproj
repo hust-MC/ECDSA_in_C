@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1853C3122605FEE008EF263 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E1853C3022605FEE008EF263 /* main.c */; };
+		E1179C662260850C00C193F7 /* encryptKey.c in Sources */ = {isa = PBXBuildFile; fileRef = E1179C652260850C00C193F7 /* encryptKey.c */; };
+		E1853C4022606BAF008EF263 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E1853C3C22606BAE008EF263 /* main.c */; };
+		E1853C4222606BAF008EF263 /* EccTest.c in Sources */ = {isa = PBXBuildFile; fileRef = E1853C3E22606BAF008EF263 /* EccTest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E1179C652260850C00C193F7 /* encryptKey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encryptKey.c; sourceTree = "<group>"; };
+		E1179C672260880C00C193F7 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		E1853C2D22605FEE008EF263 /* TestDsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestDsa; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1853C3022605FEE008EF263 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E1853C3C22606BAE008EF263 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E1853C3E22606BAF008EF263 /* EccTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EccTest.c; sourceTree = "<group>"; };
+		E1853C3F22606BAF008EF263 /* EccTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EccTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		E1853C2F22605FEE008EF263 /* TestDsa */ = {
 			isa = PBXGroup;
 			children = (
-				E1853C3022605FEE008EF263 /* main.c */,
+				E1853C3E22606BAF008EF263 /* EccTest.c */,
+				E1853C3F22606BAF008EF263 /* EccTest.h */,
+				E1853C3C22606BAE008EF263 /* main.c */,
+				E1179C652260850C00C193F7 /* encryptKey.c */,
+				E1179C672260880C00C193F7 /* main.h */,
 			);
 			path = TestDsa;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1853C3122605FEE008EF263 /* main.c in Sources */,
+				E1179C662260850C00C193F7 /* encryptKey.c in Sources */,
+				E1853C4222606BAF008EF263 /* EccTest.c in Sources */,
+				E1853C4022606BAF008EF263 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

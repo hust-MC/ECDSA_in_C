@@ -6,15 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestDsa/main.c"
-            timestampString = "576742347.97013"
+            timestampString = "576865393.301873"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "main"
             landmarkType = "9">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestDsa/main.c"
-            timestampString = "576742347.970469"
+            timestampString = "576865393.301982"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "main"
             landmarkType = "9">
          </BreakpointContent>
@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestDsa/main.c"
-            timestampString = "576742347.970701"
+            filePath = "TestDsa/EccTest.c"
+            timestampString = "576865393.302065"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "main"
+            startingLineNumber = "1225"
+            endingLineNumber = "1225"
+            landmarkName = "ecdsa_verify"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
